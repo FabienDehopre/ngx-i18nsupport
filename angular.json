@@ -2,17 +2,8 @@
   "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
   "version": 1,
   "newProjectRoot": "projects",
-  "newProjectRoot": "projects",
   "projects": {
     "ngx-i18nsupport": {
-      "i18n": {
-        "locales": {
-          "de": {
-            "translation": "src/i18n/messages.de.xlf",
-            "baseHref": ""
-          }
-        }
-      },
       "root": "",
       "sourceRoot": "src",
       "projectType": "application",
@@ -280,26 +271,6 @@
       }
     },
     "tiny-translator": {
-      "i18n": {
-        "locales": {
-          "en": {
-            "translation": "projects/tiny-translator/src/i18n/messages.en.xlf",
-            "baseHref": "/tiny-translator/en/"
-          },
-          "de": {
-            "translation": "projects/tiny-translator/src/i18n/messages.de.xlf",
-            "baseHref": "/tiny-translator/de/"
-          },
-          "fr": {
-            "translation": "projects/tiny-translator/src/i18n/messages.fr-google.xlf",
-            "baseHref": "/tiny-translator/fr-google/"
-          },
-          "ru": {
-            "translation": "projects/tiny-translator/src/i18n/messages.ru-google.xlf",
-            "baseHref": "/tiny-translator/ru-google/"
-          }
-        }
-      },
       "root": "projects/tiny-translator/",
       "sourceRoot": "projects/tiny-translator/src",
       "projectType": "application",
